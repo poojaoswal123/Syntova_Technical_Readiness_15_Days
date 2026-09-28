@@ -49,6 +49,3 @@ Syntova_Technical_Readiness_15_Days
 ├── Day_13_Linux
 ├── Day_14_Docker
 ├── Day_15_End_to_End_Project
-├── Excel_Tracker
-├── Study_Plan
-└── README.md
