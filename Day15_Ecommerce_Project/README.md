@@ -35,13 +35,25 @@ The dataset includes:
 
 ## API Endpoints
 
+The API supports the following operations:
+
 | Method | Endpoint | Description |
-|---|---|---|
-| GET | `/` | Checks whether the API is running |
-| GET | `/orders/count` | Counts total orders |
-| GET | `/orders` | Retrieves the first 10 orders |
-| GET | `/analytics/summary` | Shows sales statistics |
-| GET | `/analytics/categories` | Shows category-wise analysis |
+|:---:|---|---|
+| `GET` | `/` | Checks whether the API is running. |
+| `GET` | `/orders/count` | Returns the total number of order records. |
+| `GET` | `/orders` | Retrieves up to 10 order records. |
+| `GET` | `/analytics/summary` | Shows total records, total sales, and average sales amount. |
+| `GET` | `/analytics/categories` | Shows order counts and total sales for each category. |
+| `POST` | `/orders` | Adds a new order to the database. |
+| `PUT` | `/orders/{order_rowid}` | Updates an existing order. |
+| `DELETE` | `/orders/{order_rowid}` | Deletes an order from the database. |
+
+### HTTP Methods
+
+- **GET:** Retrieve data.
+- **POST:** Add a new order.
+- **PUT:** Update an existing order.
+- **DELETE:** Delete an order.
 
 ## How to Run
 
