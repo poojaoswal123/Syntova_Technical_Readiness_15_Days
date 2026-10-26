@@ -21,7 +21,7 @@ df.info()
 
 # 4. Statistical description
 print("\n4. DATASET DESCRIPTION")
-print(df.describe(include="all").to_string())
+print(df.describe()
 
 # 5. Missing values
 print("\n5. MISSING VALUES")
@@ -44,4 +44,4 @@ print(df.dtypes)
 
 # 10. First five records
 print("\n9. FIRST FIVE RECORDS")
-print(df.head().to_string(index=False))
+print(df.head())
